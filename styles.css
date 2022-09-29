@@ -31,12 +31,25 @@ section.congratulations {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#99bbdd', EndColorStr='#7799bb');
 }
 section.congratulations h1 {
-    margin: 0 0 25px 0;
+    margin: 0 0 5px 0;
     padding: 0;
     color: #fff;
     font-family: 'Lobster Two', cursive;
     font-size: 4.5em;
     text-shadow: 3px 3px 0 #334;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}
+section.congratulations h3 {
+    margin: 0 0 5px 0;
+    padding: 50px 0 0 0;
+    color: #fff;
+    font-family: 'Lobster Two', cursive;
+    font-weight: lighter;
+    font-size: 1.0em;
+    text-shadow: 1px 1px 0 #334;
     -webkit-transition: all .3s linear;
     -moz-transition: all .3s linear;
     -o-transition: all .3s linear;
@@ -59,6 +72,14 @@ section.congratulations aside {
     font-size: 0.875em;
     font-style: italic;
 }
+
+section.congratulations img {
+    border: 0px solid #ddd;
+    border-radius: 50%;
+    padding: 0px;
+    width: 150px;
+}
+
 section.instructions {
     display: block;
     padding: 50px;
